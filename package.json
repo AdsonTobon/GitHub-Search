@@ -16,7 +16,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "sweetalert2": "^10.5.1",
-    "universal-cookie": "^4.0.4"
+    "universal-cookie": "^4.0.4",
+    "vercel": "^20.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
