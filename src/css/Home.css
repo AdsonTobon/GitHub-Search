@@ -1,0 +1,28 @@
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: gray;
+}
+.container-datos{
+    display: inline-block;
+    background-color:#14a3b7;
+   padding: 8px;
+   border-radius: 5px;
+    
+}
+.datos-info-usuario{
+    margin-right: 15px;
+}
+.container-Search{
+    width: 100%;
+}

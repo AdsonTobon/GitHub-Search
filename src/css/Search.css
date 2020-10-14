@@ -1,0 +1,28 @@
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-card{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+}
+.img-avatar{
+    width: 250px;
+    border-radius: 50%;
+}
+.container-bio{
+    width: 450px;
+}
