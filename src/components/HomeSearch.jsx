@@ -1,6 +1,6 @@
 import React from 'react'
 import Cookies from 'universal-cookie';
-import Search from './Search';
+import SearchUsers from './SearchUsers';
 import { Button } from 'react-bootstrap';
 import '../css/Home.css';
 const HomeSearch = () => {
@@ -39,7 +39,7 @@ const HomeSearch = () => {
                 <Button variant="info" onClick={CerrarSesion} className="datos-info-usuario">Cerrar Sesión</Button>
             </div>
             <div className="container-Search">
-                <Search/>
+                <SearchUsers/>
             </div>
         </div>
     )

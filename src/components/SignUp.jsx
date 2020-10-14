@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Button, Form, FormControl, FormLabel, FormGroup, Row, Col, Badge} from 'react-bootstrap';
 import Cookies from 'universal-cookie';
 import  '../css/SignUp.css';
+import CardInicio from './CardInicio';
 
 const SignUp = () => {
 
@@ -31,8 +32,14 @@ const SignUp = () => {
         console.log(datos);
       }
 
+     
+
+
     return (
         <div className="Container-Principal">
+            <div className="Modo-uso">
+                <CardInicio/>
+            </div>
             <div className="container-form">
             
             <Form >
@@ -73,7 +80,7 @@ const SignUp = () => {
                         <FormLabel>Cedula</FormLabel>
                         <FormControl
                         type="number"
-                        placeholder="Ingrese numero cedula"
+                        placeholder="Número C.C"
                         name="cedula"
                         defaultValue={datos.cedula}
                         onChange={handleChange}
@@ -119,7 +126,7 @@ const SignUp = () => {
                         />
                     </FormGroup>
                     <FormGroup>
-                        <Button variant="dark" size="lg" block onClick={handleClick}>Ingresar</Button>
+                        <Button variant="dark" size="lg" block   onClick={handleClick}>Ingresar</Button>
                     </FormGroup>
                 </Form>
             

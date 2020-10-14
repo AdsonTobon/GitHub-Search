@@ -1,0 +1,12 @@
+.container-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.img-github{
+   
+    margin-bottom: 25px;
+}
+

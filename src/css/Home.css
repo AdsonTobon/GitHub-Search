@@ -26,3 +26,29 @@
 .container-Search{
     width: 100%;
 }
+/* ------- Media Query ----- */
+@media (max-width:768px){
+    .container-header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 50px;
+        background-color: gray;
+    }
+    .container-datos{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-right: 15px;
+    }
+    .datos-info-usuario{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 90%;
+        
+    }
+}

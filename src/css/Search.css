@@ -26,3 +26,30 @@
 .container-bio{
     width: 450px;
 }
+/* ------- Media Query ----- */
+@media (max-width:768px){
+    .container-card{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .container-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 25px;
+    }
+    .container-bio{
+        
+        width: 100%;
+    }
+    .container-bio h2{
+        
+       text-align: center;
+    }
+}
